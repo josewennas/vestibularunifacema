@@ -1,0 +1,133 @@
+@media (max-width: 450px) {
+
+    header {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+        padding: 0.1% 5% 0.1% 5%;
+    }
+
+    .logo-unifacema {
+        display: flex;
+        align-content: center;
+    }
+
+    .logo-unifacema img {
+        width: 50%;
+    }
+
+    .banner {
+        display: none;
+    }
+
+    .banner-mobille {
+        display: block;
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        height: auto;
+    }
+
+    .escolhercampus {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5%;
+        width: auto;
+    }
+
+    .escolhercampus p {
+        font-size: 0.8em;
+    }
+
+    .escolhercampus h1 {
+        font-size: 1em;
+        text-transform: uppercase;
+        color: #ff9b00;
+    }
+
+    .imgdoscampus {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .imgdoscampus img {
+
+        margin: 2% 0% 2% 0%;
+    }
+
+    .logosvestibular {
+        display: none;
+    }
+
+    .logosvestibular-mobille {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff9b00;
+        padding: 5% 2% 5% 2%;
+    }
+
+    .logosvestibular-mobille img {
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logosvestibular-mobille a {
+
+        display: flex;
+        justify-content: center;
+  }
+
+    .nossoscursos {
+        width: auto;
+    }
+
+    .nossoscursos h1 {
+        font-size: 1.6em;
+    }
+
+    .nossoscursos img {
+        width: 50%;
+    }
+
+    .cursos {
+        display: flex;
+        flex-direction: column;
+                padding: 5%;
+    }
+
+    .cidades {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .cidade {
+        width: 100%;
+    }
+
+    .cidade h2 {
+        font-size: 0.8em;
+    }
+
+    .cidade ul {
+        font-size: 0.8em;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-direction: row;
+        padding: 0.1% 5% 0.1% 5%;
+    }
+
+
+}

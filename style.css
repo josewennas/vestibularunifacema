@@ -3,37 +3,52 @@ body {
   font-family: 'Barlow', sans-serif;
   font-size: 1.5em;
   box-sizing: border-box;
-  /*padding: 0% 5% 0% 5%;*/
 }
 
-html, body{
+html,
+body {
   width: 100%;
   height: 100%;
 }
 
-header{
+header {
   background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   padding: 1% 2% 1% 2%;
-
 }
 
-.menu li{
+.menu li {
   display: flex;
   flex-direction: row;
   color: white;
 }
+.menu a:hover{
+ color:  #ff9b00;
 
-.banner img {
-  width: 100%;        /* faz o banner ocupar toda a largura da tela */
-  display: block;     /* remove espaços indesejados abaixo da imagem */
-  object-fit: cover;  /* mantém a proporção sem distorcer */
-  height: auto;       /* mantém a proporção da imagem */
 }
 
-.escolhercampus{
+.banner img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: auto;
+}
+
+.banner-mobille img {
+  display: none;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: auto;
+}
+
+.banner-mobille {
+  display: none;
+}
+
+.escolhercampus {
   background-color: #333333;
   margin: 0;
   padding: 2% 2% 2% 2%;
@@ -41,63 +56,63 @@ header{
   color: white;
 }
 
-.escolhercampus p,h1{
-    display: block;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.escolhercampus p,
+h1 {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
-.imgdoscampus img{
-  width: 100%;        /* faz o banner ocupar toda a largura da tela */
-  display: block;     /* remove espaços indesejados abaixo da imagem */
-  object-fit: cover;  /* mantém a proporção sem distorcer */
-  height: auto;       /* mantém a proporção da imagem */
-
-    transform: scale(1);
+.imgdoscampus img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  height: auto;
+  transform: scale(1);
   transition: transform 0.3s ease;
 }
 
-
 .imgdoscampus img:hover {
-  transform: scale(1.1); 
-
+  transform: scale(1.1);
 }
 
-.imgdoscampus{
+.imgdoscampus {
   display: flex;
   gap: 10%;
   margin: 2% 0% 0% 0%;
-
 }
 
-.logosvestibular{
+.logosvestibular {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   background-color: #ff9b00;
   padding: 2% 2% 2% 2%;
-
 }
 
-.logosvestibular img{
-  width: 70%;        /* faz o banner ocupar toda a largura da tela */
-  height: auto;       /* mantém a proporção da imagem */
+.logosvestibular-mobille {
+  display: none;
 }
 
-.cursos{
-    background-color: #333333;
-    display: flex;
-    flex-direction: row;
-      padding: 1% 2% 1% 2%;
+.logosvestibular img {
+  width: 70%;
+  height: auto;
 }
 
-.nossoscursos img{
- width: 80%;  
-
+.cursos {
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  padding: 1% 2% 1% 2%;
 }
-.nossoscursos h1{
+
+.nossoscursos img {
+  width: 80%;
+}
+
+.nossoscursos h1 {
   color: rgb(255, 255, 255);
   font-size: 4em;
   text-transform: uppercase;
@@ -105,7 +120,7 @@ header{
 }
 
 ul {
-  list-style-type: none; /* remove os marcadores */
+  list-style-type: none;
   padding: 0;
   color: rgb(255, 255, 255);
   font-size: 1em;
@@ -113,39 +128,57 @@ ul {
 }
 
 h2 {
-  color:  #ff9b00;
+  color: #ff9b00;
+  font-size: 0.8em;
+  text-transform: uppercase;
 }
 
-.nossoscursos{
-  width: 40%;
+.nossoscursos {
+  width: 30%;
 }
-.cidades{
-  width: 60%;
+
+.cidades {
+  width: 70%;
   display: flex;
   flex-direction: row;
   padding: 1% 2% 1% 2%;
-  gap: 3%;
+  gap: 2%;
   justify-content: space-between;
 }
 
-.cidade h2{
-
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.cidade h2 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
-.cidade ul{
+
+.cidade ul {
   margin-block-start: 0em;
 }
 
-.linha{
-  background-color: #f2224e;
-  height: 10px;
-
+a {
+  text-decoration: none;
+  color: white;
 }
 
-footer{
+.cidade a {
+  text-decoration: none;
+  color: white;
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}
+
+.cidade a:hover {
+  background-color: #ff9b00;
+}
+
+.linha {
+  background-color: #f2224e;
+  height: 10px;
+}
+
+footer {
   background-color: black;
   display: flex;
   flex-direction: row;
